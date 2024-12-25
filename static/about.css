@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #0c0c0c;
+  color: #ecf0f1;
+  padding: 0;
+  text-align: right;
+  position: absolute;
+  width: 100%;
+  margin-bottom: 40.5%;
+}
+
+nav ul li a:hover {
+  color: #5e130b;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0c0c0c;
+  height: 60px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 7%;
+  border-radius: 0;
+}
+
+.gym-name {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 18px;
+}
+.about {
+  width: 100%;
+  height: 84.5vh;
+  background-image: url(./images/pexels-foadshariyati-29392546.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  color: rgb(252, 249, 249);
+  border-radius: 0;
+  padding: 25px 15px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.about h2 {
+  font-size: 2em;
+  margin-bottom: 10%;
+  background: #0c0c0c;
+}
+
+.about p {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.about button {
+  background: #0c0c0c;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 20px 0 0 auto;
+}
+
+
+.about button:hover {
+  background: #5a0f07;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.about h2 {
+  background: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+
+.location {
+  text-align: center;
+  padding: 10px;
+  margin-top: 0px;
+  background-color: #1f1e1e;
+}
+
+.location h2 {
+  font-size: 1.8rem;
+  color: #fffefe;
+  margin-bottom: 10px;
+}
+
+.location p {
+  font-size: 1rem;
+  color: #fffdfd;
+  margin-bottom: 20px;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #1f1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.map-container iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+  border: none;
+}
+
+footer {
+  background-color: #0c0c0c;
+  color: #ecf0f1;
+  font-family: "Poppins", sans-serif;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #5e130b;
+}
+
+.footer-section h4 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #5e130b;
+}
+
+.footer-section p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #bdc3c7;
+}
+
+.footer-section ul {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #bdc3c7;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #5e130b;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: #fafdfd;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}

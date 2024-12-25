@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='membership.css') }}">
+    <title>Membership</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <img src="{{ url_for('static', filename='images/1600w-O5Cdsfy-grY.jpg') }}" alt="Gym Logo" class="logo">
+
+          <span class="gym-name">Strength Fitness Club</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/membership">Membership</a></li>
+          <li><a href="/signup">Sign in Or Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="membership">
+        <h2>Choose Your Plan</h2>
+        <div class="plans">
+          <div class="plan">
+            <img src="{{ url_for('static', filename='images/pexels-cottonbro-4753894.jpg') }}" alt="Basic Plan" />
+            <h3>Basic Plan</h3>
+            <p class="price">$20/month</p>
+            <ul>
+              <li>Access to gym equipment</li>
+              <li>1 group class per week</li>
+              <li>Free locker access</li>
+            </ul>
+            <button>Sign Up</button>
+          </div>
+          <div class="plan">
+            <img
+              src="{{ url_for('static', filename='images/pexels-tubarones-9545907.jpg') }}"
+              alt="Standard Plan"
+            />
+            <h3>Standard Plan</h3>
+            <p class="price">$40/month</p>
+            <ul>
+              <li>Everything in Basic</li>
+              <li>Unlimited group classes</li>
+              <li>2 personal training sessions</li>
+            </ul>
+            <button>Sign Up</button>
+          </div>
+          <div class="plan">
+            <img src="{{ url_for('static', filename='images/pexels-am83-14636326.jpg') }}" alt="Premium Plan" />
+            <h3>Premium Plan</h3>
+            <p class="price">$60/month</p>
+            <ul>
+              <li>Everything in Standard</li>
+              <li>Priority support</li>
+              <li>Nutrition consultation</li>
+            </ul>
+            <button>Sign Up</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h3>Strength Fitness Club</h3>
+          <p>
+            Empowering individuals to achieve their fitness goals with
+            state-of-the-art facilities, expert trainers, and a supportive
+            community. Let's thrive together!
+          </p>
+        </div>
+
+        <div class="footer-section links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/membership">Membership</a></li>
+            <li><a href="/signup">Sign Up</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section contact">
+          <h4>Contact Us</h4>
+          <p><strong>Email:</strong> info@strengthfitness.com</p>
+          <p><strong>Phone:</strong> +1 234 567 890</p>
+          <p><strong>Address:</strong> 123 Gym Street, Karachi, PAKISTAN</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Strength Fitness Club. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

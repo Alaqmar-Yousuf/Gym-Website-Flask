@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+    <title>About Us</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <img src="{{ url_for('static', filename='images/1600w-O5Cdsfy-grY.jpg') }}" alt="Gym Logo" class="logo">
+
+          <span class="gym-name">Strength Fitness Club</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/membership">Membership</a></li>
+          <li><a href="/signup">Sign in Or Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+
+      <section class="about">
+        <h2></h2>
+        <p>
+          Welcome to <b>Strength Fitness Club</b>, where fitness meets
+          community, and every journey begins with a single step. Our mission is
+          to empower individuals to achieve their health and fitness goals in an
+          environment that inspires motivation, inclusivity, and growth. With
+          state-of-the-art equipment, expert trainers, and personalized
+          programs, we’re here to support everyone—from beginners taking their
+          first steps to seasoned athletes aiming to reach new heights. At
+          Strength Fitness Club, we believe in creating a space where you can
+          not only train but thrive, surrounded by a supportive and energetic
+          community. Our offerings include: Dynamic group classes like HIIT,
+          yoga, and spin. One-on-one personal training tailored to your needs.
+          Cutting-edge facilities designed for strength, cardio, and
+          flexibility. Join us and discover the confidence, strength, and
+          vitality that come with prioritizing your well-being. Your fitness
+          journey is unique, and we’re here to guide you every step of the way.
+          Ready to take the first step? Let’s work together to make your fitness
+          goals a reality.
+        </p>
+        <button><a href="/membership">Join Now</a></button>
+
+        <div class="bgimg"></div>
+      </section>
+      <section class="location">
+        <h2>Our Location</h2>
+        <p>Find us at the heart of the city for easy access and convenience:</p>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.133002396194!2d67.00067124150443!3d24.84533848977585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d4c7d32da55%3A0x1d635deadd4656d6!2sAtmosphere%20Fitness%20Pvt.%20Ltd.!5e0!3m2!1sen!2s!4v1731826380685!5m2!1sen!2s"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Strength Fitness Club</h3>
+          <p>
+            Empowering individuals to achieve their fitness goals with
+            state-of-the-art facilities, expert trainers, and a supportive
+            community. Let's thrive together!
+          </p>
+        </div>
+
+
+        
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/membership">Membership</a></li>
+            <li><a href="/signup">Sign Up</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p><strong>Email:</strong> info@strengthfitness.com</p>
+          <p><strong>Phone:</strong> +1 234 567 890</p>
+          <p><strong>Address:</strong> 123 Gym Street, Karachi, PAKISTAN</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Strength Fitness Club. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

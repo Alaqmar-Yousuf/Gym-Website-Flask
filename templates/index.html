@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Gym Home</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <img src="{{ url_for('static', filename='images/1600w-O5Cdsfy-grY.jpg') }}" alt="Gym Logo" class="logo">
+
+          <span class="gym-name">Strength Fitness Club</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/membership">Membership</a></li>
+          <li><a href="/signup">Sign in Or Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="para">
+          <h2>Your Fitness Journey Starts Here</h2>
+          <p>Join us to achieve your fitness goals.</p>
+          <button><a href="/membership">Join Now</a></button>
+        </div>
+      </section>
+
+
+
+      <section class="facilities">
+        <h2>Our Facilities</h2>
+        <div class="facility-images">
+          <div class="facility">
+            <img src="{{ url_for('static', filename='images/1677059365552.jpeg') }}" alt="Gym Logo">
+            <p>Modern Equipment</p>
+          </div>
+          <div class="facility">
+            <img src="{{ url_for('static', filename='images/images.jpeg') }}" alt="Gym Logo">
+            <p>Yoga Room</p>
+          </div>
+          <div class="facility">
+            <img src="{{ url_for('static', filename='images/images (1).jpeg') }}" alt="Dedicated Spin Studio" />
+            <p>Spin Studio</p>
+          </div>
+          <div class="facility">
+            <img src="{{ url_for('static', filename='images/images (2).jpeg') }}" alt="Lounge Area" />
+            <p>Lounge Area</p>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="reviews">
+        <h2>What Our Members Say</h2>
+        <div class="review-list">
+          <div class="review">
+            <p>
+              "The trainers are excellent, and the facilities are always clean
+              and welcoming!"
+            </p>
+            <span>- Alex M.</span>
+          </div>
+          <div class="review">
+            <p>
+              "I love the variety of group classes! There's something for
+              everyone."
+            </p>
+            <span>- Taylor R.</span>
+          </div>
+          <div class="review">
+            <p>
+              "The personal trainers here really helped me achieve my fitness
+              goals."
+            </p>
+            <span>- Jordan K.</span>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+          <img src="{{ url_for('static', filename='images/images (3).jpeg') }}" alt="Gym photo 1" />
+          <img
+            src="{{ url_for('static', filename='images/interior-of-a-modern-gym-with-fitness-equipment-generative-ai-photo.jpg') }}"
+            alt="Gym photo 2"
+          />
+          <img
+            src="{{ url_for('static', filename='images/pngtree-black-and-white-gym-room-with-a-row-of-equipment-image_2911173.jpg') }}"
+            alt="Gym photo 3"
+          />
+          <img src="{{ url_for('static', filename='images/images (4).jpeg') }}" alt="Gym photo 4" />
+        </div>
+      </section>
+      <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+
+    
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Strength Fitness Club</h3>
+          <p>
+            Empowering individuals to achieve their fitness goals with
+            state-of-the-art facilities, expert trainers, and a supportive
+            community. Let's thrive together!
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/membership">Membership</a></li>
+            <li><a href="/signup">Sign Up</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p><strong>Email:</strong> info@strengthfitness.com</p>
+          <p><strong>Phone:</strong> +1 234 567 890</p>
+          <p><strong>Address:</strong> 123 Gym Street, Karachi, PAKISTAN</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Strength Fitness Club. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
